@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box   ; */
+}
+
+header {
+    max-width: 1540px;
+    height: 770px;
+    background-image: url(header_bg\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    color: white;
+}
+
+header nav {
+    max-width: 1200px;
+    height: 80px;
+    margin: auto;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+header nav button {
+    height: 30px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+header .div {
+    height: 200px;
+}
+
+header .jas {
+    max-width: 1200px;
+    margin: auto;
+    height: 200px;
+}
+
+header .jas h2 {
+    font-size: 60px;
+}
+
+header .jas button {
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    border-color: green;
+}
+
+.ana {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.ana .mana img {
+    width: 100%;
+}
+
+.ana .na h1 {
+    color: rgba(0, 0, 0, 0.442);
+    color: green;
+}
+
+.ana .na p {
+    color: rgba(0, 0, 0, 0.442);
+    font-size: 20px;
+}
+
+.ana .na .rasm {
+    max-width: 400px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.ana .na .rasm .kk b {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.442);
+}
+
+.ana .na .rasm .kk img {
+    width: 100%;
+}
