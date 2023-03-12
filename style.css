@@ -1,31 +1,58 @@
-/*bosh menu*/
+/*main qism*/
 *{
     margin: 0px;
     padding: 0px;
 }
-header{
-    max-width: 100%;
-    height: 500px;
-    background-image: url(header_bg\ 1\ \(2\).png);
-    background-size:auto;
-}
-header .menu{
+main{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    color: white;
-    padding: 20px 0px ;
-    font-size: 20px;
-
+    max-width: 1000px;
+    height:400px;
+    margin: auto;
+    flex-wrap: wrap;
 }
-header .menu button{
+main .qora{
+    max-width: 300px;
+    height: auto;
+}
+main .qora img{
+    max-width: 100%;
+}
+main .qora b{
+    color: #555;
+    text-align: center;
+}
+main .qora p{
+    color: #555;
+    text-align: center;
+}
+.oxirgi{
+    max-width: 100%;
+    height: 200px;
+    background-color: black;
+    margin: 0px;
+    
+}
+.oxirgi .yashil{
+    display: grid;
+    padding: 20px 0px ;
+    grid-template-columns: auto auto auto auto auto auto;
+    color: white;
+}
+.oxirgi .yashil h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.oxirgi .yashil button{
     max-width: 200px;
     height: 50px;
     background-color: #68BF3C;
     border-radius: 30px;
     border: 0px;
-    color: white;
 }
-header .box{
-    margin: auto;
-    max-width: 900px;
+.oxirgi b{
+    color: aliceblue;
+    text-align: center;
+    margin: 80px 0px 0px 40%;
+    
 }
